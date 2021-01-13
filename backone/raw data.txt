@@ -1,0 +1,35 @@
+.banner {padding:80px 0:}
+h1{padding-bottom:40px;}
+p{line-height:24px;font-size:18px;padding-bottom:48px;}
+banner .button{padding-bottom-44px;}
+
+.portfolio h3{margin:auto; padding:54px 0 19px 0;}
+.portfolio p{font-size:16px;padding-bottom:35px;} 
+
+.image {padding:10px 0 60px ;}
+.image img{margin:34px 33px 0 33px;}
+
+about{text-align:center;padding:57px 0 74px;background-color:#16a086;}
+.about h3{font-size:28px; color:#fff;padding-bottom:17px;}
+.about p{color:#fff;font-size:14px;padding-bottom:43px;}
+.about .about_profile{padding:0 80px;}
+.marg{margine:0 60px;} ---for img 2
+.about .about_profile .pkt{background-color:#fff;float:left;width:33.33%;}
+.about .about_profile .pkt img{text-align:center;}
+.about .about_profile .pkt h3{font-size:18px; padding:20px 0 8px;}
+.about .about_profile .pkt h4{padding-bottom:21px;}
+.about .about_profile .pkt p{padding:0 0 20px 10px;}
+
+.contact h3{text-align:center;}
+.contact p{text-align:center;}
+.contact .fillup{float:left;width:50%;}
+.gap{margin-left:20px;}  ---email box
+.contact .fillup textarea{width:100%;}
+.contact .fillup button{float:right;}
+
+.contact .info{float:left;width:50%;padding-left:20px;}
+.contact .info p{margin-bottom:22px;}
+
+.footer{background-color:#2d3e50;padding:22px }
+.footer .text{float:left;}
+.footer  img{float:right;}

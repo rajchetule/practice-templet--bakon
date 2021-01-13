@@ -1,0 +1,101 @@
+/*reset section*/
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;vertical-align: baseline;}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;} body {line-height: 1;} ol, ul {list-style: none;} blockquote, q {quotes: none;}blockquote:before, blockquote:after,
+q:before, q:after {content: '';content: none;} table {border-collapse: collapse; border-spacing: 0;}
+/*generic section*/
+.container{max-width: 1024px; margin:auto;}
+h1{font-size: 3.4375em;}
+h3{font-size: 1.75em;font-family: Lato-Regular;}
+a{font-size: 0.875em;font-family: Lato-Regular;}
+h4{font-size: 0.875em;font-family: Lato-Italic;}
+p{font-size: 0.875em;font-family: Lato-Light;}
+span{font-family: Lato-Bold;/*font-size: 3.4375em;*/}
+button{font-family: Lato-Bold;}
+.clear{clear: both;}
+/*font section*/
+@font-face{src:url(../font/Lato-Bold.ttf);font-family: Lato-Bold;}
+@font-face{src:url(../font/Lato-Light.ttf);font-family: Lato-Light;}
+@font-face{src:url(../font/Lato-Regular.ttf);font-family: Lato-Regular;}
+@font-face{src:url(../font/Lato-Italic.ttf);font-family: Lato-Italic;}
+/*basic section*/
+/*head section*/
+.head{padding: 26px 0 22px;box-sizing: border-box;}
+.head .logo{float: left;/*padding: 26px 0 22px ; box-sizing: border-box;*/}
+.head .nav{float: right;}
+.head .nav ul li{display: inline-block; padding-left: 30px;margin-top: 16px; box-sizing: border-box;} 
+.head .nav ul li a{text-decoration: none;color: #444444;font-size: 0.875em;padding:13px 10px 13px 12px;box-sizing: border-box; } 
+.head .nav ul li a:hover{ background-color: #1bbc9b;color: white;  }
+/*banner section */
+.banner{width: 100%; background-image: url(../img/banner.png);background-repeat: no-repeat;background-size: cover;text-align: center;padding: 78px 0 81px;box-sizing: border-box;}
+.banner h1{color: white;font-family: Lato-Light;}
+.banner p{line-height:24px;font-size:1.125em;color: #fff;margin: 42px 0 49px;}
+.banner  button{margin-bottom:44px;font-size: 0.8125em; color: #fff;background-color: #1bbc9b;font-style: bold;padding: 14px;border:none;text-transform: uppercase;box-sizing: border-box;}
+.btn{text-align: center;}
+/*portfolio section*/
+.portfolio {text-align: center;padding-top: 52px;box-sizing: border-box;}
+.portfolio p{font-size:1em;margin-bottom:35px;text-align: center;color: #1bbc9b;}
+.portfolio button{border:none;background-color: #1bbc9b;padding: 13px 10px;font-size: 0.8125em;color:white;font-style: bold;margin-right: 15px;box-sizing: border-box;}
+/*image section*/
+.image {padding:45px 0 62px ;box-sizing: border-box;}
+.mar_img{margin-top: 32px;}
+.image .img_pkt{width: 25%;float: left;}
+/*about section*/
+.about{text-align:center;padding:57px 0 74px;background-color:#16a086;box-sizing: border-box;}
+.about h3{font-size:1.75em; color:#fff;}
+.about p{color:#fff;font-size:0.875em;margin: 20px 0 40px;}
+.about .about_profile{padding:0 80px;background-color:#16a086;box-sizing: border-box;}
+.marg{margin:0 60px;}
+.about .about_profile .pkt{background-color:#fff;float:left;width:25.33%;padding-bottom:20px;box-sizing: border-box;}
+.about .about_profile .pkt h3{font-size:1.125em; color: #444444;padding: 0px;margin-top: 20px;box-sizing: border-box;}
+.about .about_profile .pkt h4{color: #444444;margin:7px 0 20px;}
+.about .about_profile .pkt p{color: #444444;padding: 0px;box-sizing: border-box;}
+/*contact*/
+.contact{background-color: #ecf0f1;padding-top: 52px;box-sizing: border-box;}
+.contact h3{text-align:center;}
+.contact p{text-align:center;margin-top: 20px;}
+.form_sec{padding: 50px 0 62px ;box-sizing: border-box;}
+.contact .fillup{float:left;width:50%;}
+.contact .fillup input{padding: 15px 0 15px 12px;width: 45.4%;border:2px solid #bec3c7;box-sizing: border-box;}
+.marg2{margin-left: 2.1%;}
+.contact .fillup textarea{width:99%;padding-bottom: 90px;margin: 22px 0 22px ;border:2px solid #bec3c7;box-sizing: border-box; }
+.contact .fillup button{float:right;color: #fff; padding: 15px 30px 13px ;font-size: 0.8125em;font-style: bold;background-color: #1bbc9b;border:none;box-sizing: border-box;}
+.contact .info{float:right;width:50%;padding-left:20px;box-sizing: border-box;}
+.contact .info p{margin-bottom:22px;text-align: left;}
+.contact .info h4{padding-bottom:22px;}
+.info .location .loc_icon{float: left;}
+.info .location .loc_info{float: left;padding-left: 5px;box-sizing: border-box;margin-top: -21px;}
+/*footer section*/
+.footer{background-color:#2d3e50;padding:38px 0 30px;font-family: Lato-Regular;font-size: 0.875em;box-sizing: border-box; }
+.footer .text{float:left;color: white;padding: 14px 0 0 0;box-sizing: border-box;}
+.footer  img{float:right;}
+
+/*media query*/
+
+@media (max-width: 768px){
+	.head{padding:10px;box-sizing: border-box;}
+	.head .logo{width: 24%;}
+	.head .logo img{width: 90%;}
+	.head .nav{width: 75%;text-align: right;}
+	.head .nav ul li{padding-left: 5px;margin-top: 5px; box-sizing: border-box;}
+ 	.head .nav ul li a{font-size: 0.5em;padding:5px;box-sizing: border-box;}
+ 	.image .img_pkt{width: 45%; padding:0 5px 8px 30px; box-sizing: border-box;}
+ 	.image .img_pkt img{width: 100%;}
+ 	.portfolio button{padding: 5px;font-size: 0.5em;margin-right: 5px;box-sizing: border-box;}
+ 	.about {margin:0 auto;}
+ 	.about .about_profile{width: 100%; margin: 0 auto;float: none;}
+ 	.about .about_profile .pkt{width: 85%;margin-bottom: 20px; /*text-align: center;*/}
+ 	.about .about_profile .pkt img{width: 100%;}
+ 	.marg{margin:0;}
+ 	.form_sec{padding: 15px;box-sizing: border-box;}
+ 	.contact .fillup{width: 100%;}
+ 	.contact .info{width: 100%;}
+ 	.footer {padding:10px;box-sizing: border-box;}
+ 	.footer .text{font-size: 0.5em;}
+
+ 	h1{font-size: 1.8em;}
+ 
+ 	
+}
